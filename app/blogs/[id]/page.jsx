@@ -10,7 +10,7 @@ import ProgressBar from "@/Components/ProgressBar";
 import ToTop from "@/Components/ToTop";
 import Newsletter from "@/Components/Newsletter";
 
-const page = ({ params }) => { // params va ici prendre la valeur de [id]
+const Page = ({ params }) => { // params va ici prendre la valeur de [id]
   const [data, setData] = useState(null);
 
   // Pour récupérer les données du blog en fonction de l'ID des paramètres
@@ -206,4 +206,4 @@ const page = ({ params }) => { // params va ici prendre la valeur de [id]
   )
 }
 
-export default page;
+export default Page;

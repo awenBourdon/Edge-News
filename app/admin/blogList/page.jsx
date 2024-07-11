@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
 import { toast } from "react-toastify";  // Importation de la bibliothèque de toasts
 import 'react-toastify/dist/ReactToastify.css';  // Styles CSS pour react-toastify
 
-const page = () => {
+const Page = () => {
 
   const [blogs, setBlogs] = useState([]);
 
@@ -66,4 +66,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
