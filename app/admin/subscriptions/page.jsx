@@ -5,7 +5,7 @@ import React, { useEffect, useState } from 'react';
 import { toast } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'; 
 
-const page = () => {
+const Page = () => {
 
     const [emails, setEmails] = useState([]); // Déclare un état local 'emails' avec useState pour stocker les emails
 
@@ -69,4 +69,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
